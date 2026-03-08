@@ -13,7 +13,7 @@ Uma aplicação web moderna de lista de tarefas desenvolvida com PHP no backend 
 ## 🛠️ Tecnologias Utilizadas
 
 ### Backend
-- **PHP 7.4+** - Linguagem de programação server-side
+- **PHP 8.0+** - Linguagem de programação server-side
 - **PostgreSQL** - Sistema de gerenciamento de banco de dados relacional
 
 ### Frontend
@@ -21,18 +21,13 @@ Uma aplicação web moderna de lista de tarefas desenvolvida com PHP no backend 
 - **CSS3** - Estilização moderna com gradientes e transições
 - **JavaScript** - Interatividade básica (ES6+)
 
-### Ferramentas de Desenvolvimento
-- **Git** - Controle de versão
-- **VS Code** - Ambiente de desenvolvimento
-
 ## 📋 Pré-requisitos
 
 Antes de executar este projeto, certifique-se de ter instalado:
 
-- **PHP 7.4 ou superior**
+- **PHP 8.0 ou superior**
 - **PostgreSQL 12 ou superior**
 - **Servidor web** (Apache/Nginx) ou PHP built-in server
-- **Git** (opcional, para clonar o repositório)
 
 ## 🚀 Instalação e Execução
 
@@ -119,24 +114,9 @@ Contribuições são sempre bem-vindas! Para contribuir:
 4. Push para a branch (`git push origin feature/AmazingFeature`)
 5. Abra um Pull Request
 
-### Diretrizes para contribuição:
-- Mantenha o código limpo e bem comentado
-- Siga as convenções de nomenclatura PHP
-- Teste suas alterações antes de submeter
-- Atualize a documentação se necessário
-
 ## 📝 Licença
 
 Este projeto está sob a licença MIT. Veja o arquivo [LICENSE](LICENSE) para mais detalhes.
-
-## 👨‍💻 Autor
-
-**Seu Nome**
-- LinkedIn: [Seu LinkedIn](https://linkedin.com/in/seu-perfil)
-- GitHub: [@seu-usuario](https://github.com/seu-usuario)
-- Email: seu.email@exemplo.com
-
----
 
 ⭐ **Se este projeto foi útil para você, considere dar uma estrela no GitHub!**
 
