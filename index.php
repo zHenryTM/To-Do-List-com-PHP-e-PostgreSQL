@@ -29,16 +29,31 @@
             // Exibir as notas na lista
             while ($row = pg_fetch_assoc($result)) {
                 echo "<li>";
-                echo htmlspecialchars($row['nota']);
-                echo "<form action='./scripts/deletar_nota.php' method='post' style='display:inline;'>";
-                echo "<input type='hidden' name='nota' value='" . htmlspecialchars($row['nota']) . "'>";
-                echo "<button class='delete-btn' type='submit'>Deletar</button>";
-                echo "</form>";
+
+                    echo "<div>";
+
+                        echo "<form action='./scripts/editar_nota.php' method='post' style='display:inline;'>";
+
+                            echo "<input type='hidden' name='nota_antiga' value='" . htmlspecialchars($row['nota']) . "'>";
+                            echo "<input type='text' name='nota_nova' value='" . htmlspecialchars($row['nota']) . "'>";
+                            echo "<button class='edit-btn' type='submit'>Editar</button>";
+
+                        echo "</form>";
+
+
+                        echo "<form action='./scripts/deletar_nota.php' method='post' style='display:inline;'>";
+
+                            echo "<input type='hidden' name='nota' value='" . htmlspecialchars($row['nota']) . "'>";
+                            echo "<button class='delete-btn' type='submit'>Deletar</button>";
+
+                        echo "</form>";
+
+                    echo "</div>";
+
                 echo "</li>";
             }
             ?>
         </ul>
-
     </div>
 </body>
 </html>
