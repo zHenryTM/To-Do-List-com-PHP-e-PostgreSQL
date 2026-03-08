@@ -19,7 +19,6 @@ Uma aplicação web moderna de lista de tarefas desenvolvida com PHP no backend 
 ### Frontend
 - **HTML5** - Estrutura semântica da aplicação
 - **CSS3** - Estilização moderna com gradientes e transições
-- **JavaScript** - Interatividade básica (ES6+)
 
 ## 📋 Pré-requisitos
 
